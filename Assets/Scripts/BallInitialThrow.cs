@@ -7,8 +7,8 @@ using UnityEngine.Windows;
 
 public class BallInitialThrow : MonoBehaviour
 {
-    public Rigidbody2D ball;
-    public Vector2 motion = Vector2.left;
+    public Rigidbody ball;
+    public Vector3 motion = Vector3.left;
 
     // Start is called before the first frame update
     void Start()

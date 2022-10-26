@@ -1,0 +1,1552 @@
+fileFormatVersion: 2
+guid: ed9bf6224053ebc4f825fa4c2302eabb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 414
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2330c431257ec474396db9a28fd72a5c
+      internalID: 508125463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 414
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da39cb96adefcf546b7ff93a32312a38
+      internalID: 1596334318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_2
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 414
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92bdb739fd172d46abc27997171dded
+      internalID: -11675834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_3
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 414
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fdf156e156658a4b86ff34bda078b26
+      internalID: -1779932705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_4
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 414
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab6e80a4c501c94abcb5898bb353ba1
+      internalID: -787121856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_5
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 414
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d23b7a73b2daa4c9b600164635847b
+      internalID: 623702783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_6
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 414
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac724cfd8d40c8d4ead5d06b87a84bf5
+      internalID: -2131595980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_7
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 414
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d927b988dbd78f5458d3467137294b3c
+      internalID: 324062030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_8
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 414
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf36b6bb39e1624c897aaccb9f24eee
+      internalID: 1385569965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_9
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 414
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990458418f5c170498208e868138b743
+      internalID: 1763443016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_10
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 356
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de857f4b3180df498d6408756c58f7a
+      internalID: 1580837153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_11
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 356
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e898e126526ff8642a3bc9e3a0bd1588
+      internalID: 813212251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_12
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 356
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593ea519f8d39414d8237e209bf661ee
+      internalID: 1666789942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_13
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 356
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b14ab90b024785438056d454ef5193f
+      internalID: 774345832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 356
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b02984567df6234bb532c6077ae7c94
+      internalID: 289156691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_15
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 356
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a0d73ae634a974d89be173ee292081
+      internalID: -150887795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_16
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 319
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564d3ec0690ed434e91cff5f8d8d52ba
+      internalID: -96102775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_17
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 319
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00754f906d5e0d549bc3a0dcd6cd469d
+      internalID: 1533207766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_18
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 319
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec2700581e6d5444bd9f7d4bd788639
+      internalID: -161002925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_19
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 319
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf8208aa1a1a7e4b81d1bbd6125e6f4
+      internalID: 503964114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_20
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 319
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66f18380976b174ca94baee78660787
+      internalID: 1974255864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_21
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 319
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7387da9426357a747b0fe6a122639f66
+      internalID: 1426092952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_22
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 282
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d826f22231512f4a81da51eadf9bd7e
+      internalID: 98404030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_23
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 282
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b0199d41289ce488a1ca0295b634ae
+      internalID: -732434264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_24
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 282
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3721f1fa93f0615429dd01fe364ec627
+      internalID: -257313193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_25
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 282
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea9ea0de7a2119419881070d3877267
+      internalID: -1292114705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_26
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 282
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f70fc2cb9a37746ba655f9e9ea0305
+      internalID: -384937671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_27
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 282
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78802a94fa145514d98d394a5303ba6a
+      internalID: 194606096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_28
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 245
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d0fd7d92ba6cc48a38cb8e48adac9d
+      internalID: -1583699501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_29
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 245
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c6273f2ba5c5845921449b8abc7f88
+      internalID: -435055661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_30
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 245
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0e84415ea38764c9d97c6beefebc23
+      internalID: 680524900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_31
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 245
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c575221d37de10f4d8aab2cfa02063b3
+      internalID: -86761780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_32
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 245
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32f13e72a6d4854c9b2bcf09a067832
+      internalID: -1832705362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_33
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 245
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e35529c44902441834e1f258e3aef7
+      internalID: 1023762912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_34
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 208
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d99350c3bd27c4d895a29010008fbc
+      internalID: -1830848115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_35
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 208
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb8e592732c3664abe0769269fb28a4
+      internalID: -334370611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_36
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 208
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6160960359ed22644bae27dc060bd617
+      internalID: 597411359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_37
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 208
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22c56755c25c254483b10bfd16e6987
+      internalID: -1534607030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_38
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 208
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b45041c6f8bb24298c65ccbcd43a54
+      internalID: -1005990768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_39
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 208
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821a7ac62ebd761418a0b4d537562309
+      internalID: 1779059956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_40
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 171
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8dab99429fda8f46b90ab6b1875c433
+      internalID: -1270359500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_41
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 171
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b95f536773b45b4b88212ed46100620
+      internalID: 2117834175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_42
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 171
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b203846c32ca44593b8b1fb6ea3165
+      internalID: -480713503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_43
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 171
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d537c14dcd099140aef2cfb176554b0
+      internalID: 531009696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_44
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 171
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668777b6d9c46d042b04043dd666d7fb
+      internalID: 2100163084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_45
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 171
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4a18541bbc4df44893bfb7d291abd0
+      internalID: -625012204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_46
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 134
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834f71bf13fc0a049aef18137b600d92
+      internalID: -2014880645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_47
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 134
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef61b4d6db3cfc841bb39a3c90f207ee
+      internalID: -795283233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_48
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 134
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50194e824cd97f443881a8b79bfded39
+      internalID: -1484696093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_49
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 134
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fcd225740d84047a3f26d2aed6e204
+      internalID: 1115033191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_50
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 134
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abc860a03abd584db1ab97d712b0695
+      internalID: 190292265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_51
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 134
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d08bb1baa2d1f4193d31be073e24cc
+      internalID: 1349892096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_52
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 97
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe0c788cdf8d504faeaee9ed788f39d
+      internalID: -747841138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_53
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 97
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4d32b113ad1834ea548d872ac3045c
+      internalID: 391126840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_54
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 97
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a08eb24f6da9e4b82c70f9e4b75c80
+      internalID: 191499336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_55
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 97
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39a7bb513c4ea8449ff43a2f78aa50e
+      internalID: -1104970922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_56
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 60
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9116870fe77df4d86a6ec999813630
+      internalID: 1398842597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_57
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 60
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5645619dabf3f1a4ea9a80080ea72e70
+      internalID: 1356528349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_58
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 60
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70c5f78ec14d804b8cc5f3ed0688861
+      internalID: -1416779184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_59
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 60
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce762592d480a7459bcc53ac3a8e8cc
+      internalID: -1444872347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_60
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 12
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad91fe493867df4ab43781bd0d06319
+      internalID: -366652778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_61
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 12
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65118f861e2de6d47984001dc9aaf693
+      internalID: -308206392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_62
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 12
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5dc8ee84cb7d140a1321aba1e00463
+      internalID: 77251622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_63
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 12
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc0e92e701e35044befe8435b0b1863
+      internalID: -460218459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelPlanetsEdit_64
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 12
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c783e6a9a28dfc438df67d7cbfbed0d
+      internalID: 1954045646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 37326a84c1937c94ab2baad46aeceb56
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PixelPlanetsEdit_60: -366652778
+      PixelPlanetsEdit_39: 1779059956
+      PixelPlanetsEdit_53: 391126840
+      PixelPlanetsEdit_54: 191499336
+      PixelPlanetsEdit_52: -747841138
+      PixelPlanetsEdit_45: -625012204
+      PixelPlanetsEdit_47: -795283233
+      PixelPlanetsEdit_55: -1104970922
+      PixelPlanetsEdit_3: -1779932705
+      PixelPlanetsEdit_30: 680524900
+      PixelPlanetsEdit_42: -480713503
+      PixelPlanetsEdit_34: -1830848115
+      PixelPlanetsEdit_44: 2100163084
+      PixelPlanetsEdit_6: -2131595980
+      PixelPlanetsEdit_18: -161002925
+      PixelPlanetsEdit_2: -11675834
+      PixelPlanetsEdit_48: -1484696093
+      PixelPlanetsEdit_1: 1596334318
+      PixelPlanetsEdit_37: -1534607030
+      PixelPlanetsEdit_49: 1115033191
+      PixelPlanetsEdit_56: 1398842597
+      PixelPlanetsEdit_28: -1583699501
+      PixelPlanetsEdit_8: 1385569965
+      PixelPlanetsEdit_41: 2117834175
+      PixelPlanetsEdit_59: -1444872347
+      PixelPlanetsEdit_63: -460218459
+      PixelPlanetsEdit_31: -86761780
+      PixelPlanetsEdit_22: 98404030
+      PixelPlanetsEdit_16: -96102775
+      PixelPlanetsEdit_15: -150887795
+      PixelPlanetsEdit_12: 1666789942
+      PixelPlanetsEdit_38: -1005990768
+      PixelPlanetsEdit_33: 1023762912
+      PixelPlanetsEdit_26: -384937671
+      PixelPlanetsEdit_23: -732434264
+      PixelPlanetsEdit_24: -257313193
+      PixelPlanetsEdit_62: 77251622
+      PixelPlanetsEdit_58: -1416779184
+      PixelPlanetsEdit_0: 508125463
+      PixelPlanetsEdit_36: 597411359
+      PixelPlanetsEdit_64: 1954045646
+      PixelPlanetsEdit_9: 1763443016
+      PixelPlanetsEdit_40: -1270359500
+      PixelPlanetsEdit_50: 190292265
+      PixelPlanetsEdit_5: 623702783
+      PixelPlanetsEdit_25: -1292114705
+      PixelPlanetsEdit_43: 531009696
+      PixelPlanetsEdit_46: -2014880645
+      PixelPlanetsEdit_61: -308206392
+      PixelPlanetsEdit_4: -787121856
+      PixelPlanetsEdit_14: 289156691
+      PixelPlanetsEdit_20: 1974255864
+      PixelPlanetsEdit_10: 1580837153
+      PixelPlanetsEdit_17: 1533207766
+      PixelPlanetsEdit_7: 324062030
+      PixelPlanetsEdit_11: 813212251
+      PixelPlanetsEdit_19: 503964114
+      PixelPlanetsEdit_21: 1426092952
+      PixelPlanetsEdit_51: 1349892096
+      PixelPlanetsEdit_32: -1832705362
+      PixelPlanetsEdit_13: 774345832
+      PixelPlanetsEdit_29: -435055661
+      PixelPlanetsEdit_35: -334370611
+      PixelPlanetsEdit_27: 194606096
+      PixelPlanetsEdit_57: 1356528349
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
