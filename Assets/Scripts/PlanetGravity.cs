@@ -4,6 +4,15 @@ using UnityEngine;
 
 public class PlanetGravity : MonoBehaviour
 {
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.tag =="GravZone")
+        {
+
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
