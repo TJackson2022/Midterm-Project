@@ -2,20 +2,32 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting.Dependencies.NCalc;
 using UnityEditor;
-using UnityEditor.AnimatedValues;
+//using UnityEditor.AnimatedValues;
 using UnityEngine;
 using UnityEngine.Windows;
 
 public class BallControl : MonoBehaviour
 {
     public Rigidbody ball;
-    public Vector2 motionLeft = Vector2.left;
-    public Vector2 motionRight = Vector2.right;
-    public Vector3 hide = new(0, 0, 500);
+    public float ballSpeed = 500f;
+    Vector2 motionLeft = Vector2.left;
+    Vector2 motionRight = Vector2.right;
+    Vector2 motionUpLeft;
+    Vector2 motionUpRight;
+    Vector2 motionDownLeft;
+    Vector2 motionDownRight;
+    Vector3 hide = new(0, 0, 500);
 
     // Start is called before the first frame update
     void Start()
     {
+        motionLeft.Set(-ballSpeed, 0);
+        motionRight.Set(ballSpeed, 0);
+        motionUpLeft.Set(-ballSpeed, ballSpeed/2);
+        motionUpRight.Set(ballSpeed, ballSpeed/2);
+        motionDownLeft.Set(-ballSpeed, -ballSpeed/2);
+        motionDownRight.Set(ballSpeed, -ballSpeed/2);
+
         StartCoroutine(NewRoundLaunch());
     }
 
@@ -31,14 +43,46 @@ public class BallControl : MonoBehaviour
         ball.velocity = Vector3.zero;
         ball.gameObject.transform.position = Vector3.zero;
 
-        int randomNumber = (int)Random.Range(0f, 1f);
-        if (randomNumber <= 0.5f)
+        //float randomNumber = Random.Range(0f, 6f);
+        float randomNumber = Random.Range(0f, 3f);
+        Debug.Log(randomNumber);
+
+        /*if (randomNumber <= 1)
         {
             ball.AddForce(motionLeft);
         }
-        else// if (randomNumber > 0.5f)
+        else if (randomNumber > 1 && randomNumber <= 2)
         {
             ball.AddForce(motionRight);
+        }
+        else if (randomNumber > 2 && randomNumber <= 3)
+        {
+            ball.AddForce(motionUpLeft);
+        }
+        else if (randomNumber > 3 && randomNumber <= 4)
+        {
+            ball.AddForce(motionUpRight);
+        }
+        else if (randomNumber > 4 && randomNumber <= 5)
+        {
+            ball.AddForce(motionDownLeft);
+        }
+        else if (randomNumber > 5 && randomNumber <= 6)
+        {
+            ball.AddForce(motionDownRight);
+        }*/
+
+        if (randomNumber <= 1)
+        {
+            ball.AddForce(motionLeft);
+        }
+        else if (randomNumber > 1 && randomNumber <= 2)
+        {
+            ball.AddForce(motionUpLeft);
+        }
+        else if (randomNumber > 2 && randomNumber <= 3)
+        {
+            ball.AddForce(motionDownLeft);
         }
     }
 
