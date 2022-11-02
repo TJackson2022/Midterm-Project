@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting.Dependencies.NCalc;
 using UnityEditor;
 using UnityEditor.AnimatedValues;
 using UnityEngine;
@@ -10,11 +11,27 @@ public class BallControl : MonoBehaviour
     public Rigidbody ball;
     public Vector2 motionLeft = Vector2.left;
     public Vector2 motionRight = Vector2.right;
+    public Vector3 hide = new(0, 0, 500);
 
     // Start is called before the first frame update
     void Start()
     {
-        int randomNumber = (int) Random.Range(0f, 1f);
+        StartCoroutine(NewRoundLaunch());
+    }
+
+    public void NewRoundReset()
+    {
+        StartCoroutine(NewRoundLaunch());
+    }
+
+    IEnumerator NewRoundLaunch()
+    {
+        ball.gameObject.transform.position = hide;
+        yield return new WaitForSeconds(2);
+        ball.velocity = Vector3.zero;
+        ball.gameObject.transform.position = Vector3.zero;
+
+        int randomNumber = (int)Random.Range(0f, 1f);
         if (randomNumber <= 0.5f)
         {
             ball.AddForce(motionLeft);
@@ -23,7 +40,6 @@ public class BallControl : MonoBehaviour
         {
             ball.AddForce(motionRight);
         }
-        
     }
 
     // Update is called once per frame

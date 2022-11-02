@@ -3151,7 +3151,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1196292266}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -58.4, y: 2.4, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3215,6 +3215,7 @@ MonoBehaviour:
   ball: {fileID: 1196292272}
   motionLeft: {x: -5000, y: 0}
   motionRight: {x: 5000, y: 0}
+  hide: {x: 0, y: 0, z: 500}
 --- !u!1 &1201220197
 GameObject:
   m_ObjectHideFlags: 0

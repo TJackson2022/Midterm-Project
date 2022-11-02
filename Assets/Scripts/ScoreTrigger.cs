@@ -13,5 +13,7 @@ public class ScoreTrigger : MonoBehaviour
             scoreOne++;
         Debug.Log("Score1");
         Score1.text = scoreOne.ToString();
+
+        other.GetComponent<BallControl>().NewRoundReset();
     }
 }
