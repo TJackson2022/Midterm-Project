@@ -8,8 +8,8 @@ using UnityEngine.Windows;
 public class BallControl : MonoBehaviour
 {
     public Rigidbody ball;
-    public Vector3 motionLeft = Vector3.left;
-    public Vector3 motionRight = Vector3.right;
+    public Vector2 motionLeft = Vector2.left;
+    public Vector2 motionRight = Vector2.right;
 
     // Start is called before the first frame update
     void Start()
@@ -32,10 +32,20 @@ public class BallControl : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter(Collision collision)
+    /*void OnCollisionExit(Collision collision)
     {
         //Debug.Log("Boing");
 
-        //Rigidbody velocityY = Rigidbody.
-    }
+        //float velocityY = ball.velocity.y;
+        //velocityY = velocityY / 2 + collision.collider.attachedRigidbody.velocity.y / 3;
+        
+        
+        if (collision.collider.CompareTag("Player"))
+        {
+            //Debug.Log("Boing2");
+            //ball.velocity.Set(ball.velocity.x, ball.velocity.y / 2 + collision.collider.attachedRigidbody.velocity.y / 3, ball.velocity.z);
+            ball.velocity.Set(ball.velocity.x, ((ball.velocity.y / 2) + (collision.collider.transform.up.y / 3)), ball.velocity.z);
+        }
+        
+    }*/
 }
