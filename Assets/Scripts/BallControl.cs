@@ -8,7 +8,7 @@ using UnityEngine.Windows;
 
 public class BallControl : MonoBehaviour
 {
-    public Rigidbody ball;
+    public Rigidbody ballrb;
     public float ballSpeed = 500f;
     Vector2 motionLeft = Vector2.left;
     Vector2 motionRight = Vector2.right;
@@ -38,51 +38,51 @@ public class BallControl : MonoBehaviour
 
     IEnumerator NewRoundLaunch()
     {
-        ball.gameObject.transform.position = hide;
+        ballrb.gameObject.transform.position = hide;
         yield return new WaitForSeconds(2);
-        ball.velocity = Vector3.zero;
-        ball.gameObject.transform.position = Vector3.zero;
+        ballrb.velocity = Vector3.zero;
+        ballrb.gameObject.transform.position = Vector3.zero;
 
         //float randomNumber = Random.Range(0f, 6f);
         float randomNumber = Random.Range(0f, 3f);
-        Debug.Log(randomNumber);
+        //Debug.Log(randomNumber);
 
         /*if (randomNumber <= 1)
         {
-            ball.AddForce(motionLeft);
+            ballrb.AddForce(motionLeft);
         }
         else if (randomNumber > 1 && randomNumber <= 2)
         {
-            ball.AddForce(motionRight);
+            ballrb.AddForce(motionRight);
         }
         else if (randomNumber > 2 && randomNumber <= 3)
         {
-            ball.AddForce(motionUpLeft);
+            ballrb.AddForce(motionUpLeft);
         }
         else if (randomNumber > 3 && randomNumber <= 4)
         {
-            ball.AddForce(motionUpRight);
+            ballrb.AddForce(motionUpRight);
         }
         else if (randomNumber > 4 && randomNumber <= 5)
         {
-            ball.AddForce(motionDownLeft);
+            ballrb.AddForce(motionDownLeft);
         }
         else if (randomNumber > 5 && randomNumber <= 6)
         {
-            ball.AddForce(motionDownRight);
+            ballrb.AddForce(motionDownRight);
         }*/
 
         if (randomNumber <= 1)
         {
-            ball.AddForce(motionLeft);
+            ballrb.AddForce(motionLeft);
         }
         else if (randomNumber > 1 && randomNumber <= 2)
         {
-            ball.AddForce(motionUpLeft);
+            ballrb.AddForce(motionUpLeft);
         }
         else if (randomNumber > 2 && randomNumber <= 3)
         {
-            ball.AddForce(motionDownLeft);
+            ballrb.AddForce(motionDownLeft);
         }
     }
 
@@ -92,20 +92,15 @@ public class BallControl : MonoBehaviour
         
     }
 
-    /*void OnCollisionExit(Collision collision)
+    private void OnCollisionEnter(Collision collision)
     {
         //Debug.Log("Boing");
 
-        //float velocityY = ball.velocity.y;
-        //velocityY = velocityY / 2 + collision.collider.attachedRigidbody.velocity.y / 3;
-        
-        
         if (collision.collider.CompareTag("Player"))
         {
             //Debug.Log("Boing2");
-            //ball.velocity.Set(ball.velocity.x, ball.velocity.y / 2 + collision.collider.attachedRigidbody.velocity.y / 3, ball.velocity.z);
-            ball.velocity.Set(ball.velocity.x, ((ball.velocity.y / 2) + (collision.collider.transform.up.y / 3)), ball.velocity.z);
+            ballrb.velocity = new UnityEngine.Vector2(ballrb.velocity.x, ((ballrb.velocity.y / 2) + (collision.collider.gameObject.GetComponent<CharacterController>().velocity.y / 3)));
         }
         
-    }*/
+    }
 }
